@@ -1,0 +1,14 @@
+<div class="image">
+<% if (filePath) { %>
+	<a href="<%= filePath %>" target="_blank"><img id="img" src="<%= filePath %>"></a>
+<% } else { %>
+	<p>No image found</p>
+<% } %>
+</div>
+<div class="text color-<%= task_id %> light">
+	<h2><%= task.name %></h2>
+	<div class="right">
+		<%= explorer %>
+	</div>
+	<p><%= note %></p>
+</div>

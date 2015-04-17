@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="de.drl.pinpointing" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <icon density="ldpi" src="res/icon.png" />
+    <icon density="mdpi" src="res/icon.png" />
+    <icon density="hdpi" src="res/icon.png" />
+    <icon density="xhdpi" src="res/icon.png" />
+    <splash density="port-hdpi" src="res/splash.9.png" />
+    <splash density="port-ldpi" src="res/splash.9.png" />
+    <splash density="port-mdpi" src="res/splash.9.png" />
+    <splash density="port-xhdpi" src="res/splash.9.png" />
+    <name>PinPoint</name>
+    <description>
+        nt
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    	Design Research Lab UDK BERLIN
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashScreen" value="screen" />
+</widget>
